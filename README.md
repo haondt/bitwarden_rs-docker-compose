@@ -1,5 +1,5 @@
 Make sure you generate a key and certificate for nginx ssl.
-Put them in `bitwarden/nginx/cert.crt` and `bitwarden/nginx/key.key'. 
+Put them in `bitwarden/nginx/cert.crt` and `bitwarden/nginx/key.key`. 
 
 Daily db backups can be enabled with crontab. Make sure you set up rclone first.
 
