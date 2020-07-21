@@ -1,12 +1,12 @@
 # Set up [Bitwarden_rs](https://github.com/dani-garcia/bitwarden_rs) with [docker-compose](https://docs.docker.com/compose/)
 
-Features:
+### Features
 
 * bitwarden_rs
 * nginx -> forwards http and https to bitwarden_rs:80. Some applications, like the chrome webapp, won't work without ssl. Other programs, like the bitwarden desktop client won't work with a self-signed certificate, but will work without ssl. If you have a certificate signed by a trusted CA, you can remove the port 80 proxying from `nginx.conf`.
 * rclone script -> 5 count rolling backup of the encrypted database to the `/home/bitwarden/bitwarden/backups/` directory, plus uploading backups via rclone.
 
-## Dependencies
+### Dependencies
 
 ```
 docker
@@ -15,7 +15,7 @@ sqlite3
 rclone
 ```
 
-## Guide
+### Guide
 
 This setup uses `/home/bitwarden/` as a working directory.
 
