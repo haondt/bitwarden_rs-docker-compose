@@ -17,7 +17,7 @@ rclone
 
 ### Guide
 
-This setup uses `/home/bitwarden/` as a working directory.
+This setup uses `/home/bitwarden/bitwarden/` as a working directory.
 
 Create the directory bitwarden_rs will use
 
