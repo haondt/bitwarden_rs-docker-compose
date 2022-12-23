@@ -6,7 +6,7 @@ networks:
 
 services:
         bitwarden_web:
-                image: bitwardenrs/server:latest
+                image: vaultwarden/server:latest
                 restart: always
                 networks:
                         - nginx_network
