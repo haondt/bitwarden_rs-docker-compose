@@ -1,5 +1,9 @@
 # Set up [Bitwarden_rs](https://github.com/dani-garcia/bitwarden_rs) with [docker-compose](https://docs.docker.com/compose/)
 
+# DEPRECATED
+
+I have since integrated this repo into my homelab IaC environment: https://github.com/haondt/Gabbro
+
 ### Features
 
 * bitwarden_rs
